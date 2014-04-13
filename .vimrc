@@ -23,8 +23,10 @@ Bundle 'othree/html5.vim'
 Bundle 'xhr/vim-io'
 Bundle 'adimit/prolog.vim'
 Bundle 'Raimondi/delimitMate'
+Bundle 'tpope/vim-rails'
+Bundle 'slim-template/vim-slim'
 
-filetype plugin indent on
+
 
 set softtabstop=4
 set shiftwidth=4
@@ -37,6 +39,15 @@ set expandtab
 set foldmethod=indent
 set cindent
 set wrap
+
+filetype plugin indent on
+
+if has("autocmd")
+    autocmd FileType javascript setlocal ts=2 sw=2 expandtab
+    autocmd FileType html setlocal ts=2 sw=2 expandtab
+    autocmd FileType ruby setlocal ts=2 sw=2 expandtab
+end
+
 "set cuc
 "set cul
 hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
