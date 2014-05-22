@@ -14,6 +14,8 @@ alias lla='ls -al'
 alias vi='vim'
 alias du="du -csh"
 alias http="python -m SimpleHTTPServer"
+# 解压中文编码的 zip
+alias unzipc="unzip -O CP936"
 
 alias goagent='python ~/google_appengine/goAgent/local/proxy.py'
 alias linode='ssh link@106.186.120.207'
@@ -22,6 +24,7 @@ alias azure='ssh link@link.chinacloudapp.cn'
 # tmux stuffs
 alias tl='tmux list-sessions'
 alias ta='tmux attach-session -t'
+
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
