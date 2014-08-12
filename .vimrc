@@ -25,6 +25,7 @@ Bundle 'adimit/prolog.vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'tpope/vim-rails'
 Bundle 'slim-template/vim-slim'
+Bundle 'kien/ctrlp.vim'
 
 
 
