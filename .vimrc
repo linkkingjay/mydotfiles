@@ -46,6 +46,7 @@ filetype plugin indent on
 if has("autocmd")
     autocmd FileType javascript setlocal ts=2 sw=2 expandtab
     autocmd FileType html setlocal ts=2 sw=2 expandtab
+    autocmd FileType css setlocal ts=2 sw=2 expandtab
     autocmd FileType ruby setlocal ts=2 sw=2 expandtab
     autocmd FileType r setlocal ts=2 sw=2 expandtab
 end
