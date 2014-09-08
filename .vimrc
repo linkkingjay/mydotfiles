@@ -127,7 +127,6 @@ colorscheme desert
 
 " 第80列高亮
 set cc=81
-set tw=81
 
 " DoxygenToolkit config
 let g:DoxygenToolkit_briefTag_pre="@synopsis  "
