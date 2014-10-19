@@ -27,7 +27,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'tpope/vim-rails'
 Bundle 'slim-template/vim-slim'
 Bundle 'kien/ctrlp.vim'
-
+Bundle 'chilicuil/vim-sml-coursera'
 
 
 set softtabstop=4
