@@ -28,6 +28,8 @@ Bundle 'tpope/vim-rails'
 Bundle 'slim-template/vim-slim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'chilicuil/vim-sml-coursera'
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/gist-vim'
 
 
 set softtabstop=4
