@@ -43,6 +43,7 @@ set expandtab
 set foldmethod=indent
 set cindent
 set wrap
+set pastetoggle=<F2>
 
 filetype plugin indent on
 
