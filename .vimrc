@@ -44,6 +44,8 @@ set foldmethod=indent
 set cindent
 set wrap
 set pastetoggle=<F2>
+set laststatus=2
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 filetype plugin indent on
 
