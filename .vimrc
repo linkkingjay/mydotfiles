@@ -6,9 +6,6 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 Bundle 'gmarik/Vundle.vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'mattn/emmet-vim'
 Bundle 'pangloss/vim-javascript'
@@ -30,6 +27,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'chilicuil/vim-sml-coursera'
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
+Bundle 'mxw/vim-jsx'
 
 
 set softtabstop=4
@@ -140,3 +138,5 @@ let g:DoxygenToolkit_returnTag="@returns   "
 let g:DoxygenToolkit_authorName="linkkingjay"
 
 set ignorecase smartcase
+nmap <F8> :TagbarToggle<CR>
+let g:jsx_ext_required = 0
